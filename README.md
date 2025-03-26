@@ -1,6 +1,6 @@
 # 💬 Chatbot template
 
-A simple Streamlit app that shows how to build a chatbot using Google Gemini.
+A simple Streamlit app that shows how to build a chatbot using the free Google Gemini API.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
 

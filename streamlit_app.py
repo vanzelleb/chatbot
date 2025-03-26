@@ -3,10 +3,10 @@ import google.genai as genai
 from google.genai import types
 
 # Show title and description.
-st.title("💬 Chatbot")
+st.title("💬 Gemini Chatbot")
 st.write(
     "This is a simple chatbot that uses the Gemini 2.0 Flash Lite model to generate responses. "
-    "To use this app, you need to provide a Gemini API key, which you can get [here](https://aistudio.google.com/). "
+    "To use this app, you need to provide a Gemini API key, which you can get for free [here](https://aistudio.google.com/). "
 )
 
 # Ask user for their API key via `st.text_input`.
@@ -22,7 +22,7 @@ else:
 
     # Create a chat input field to allow the user to enter a message. This will display
     # automatically at the bottom of the page.
-    if prompt := st.chat_input("What is up?"):
+    if prompt := st.chat_input("Say something..."):
 
         with st.chat_message("user"):
             st.markdown(prompt)
